@@ -1,0 +1,30 @@
+{
+    "name": "DICTIONARY Adam",
+    "short_name": "DICTIONARY",
+    "start_url": ".",
+    "background_color": "#FA8072",
+    "theme_color": "#FA8072",
+    "display": "standalone",
+    "lang": "en",
+    "orientation": "any",
+    "description": "Page that works as a dictionary",
+    "scope": "https://reimster206.github.io/dictionary",
+    "prefer_related_applications": true,
+    "serviceWorker":true,
+    "dir": "auto",
+    "handle_links":"preferred",
+    "icons": [
+        {
+            "src": "img/logo192.png",
+            "sizes": "192x192",
+            "type": "img/png",
+            "purpose": "any"
+        },
+        {
+            "src": "img/logo512.png",
+            "sizes": "512x512",
+            "type": "img/png",
+            "purpose": "maskable"
+        }
+    ]
+}
