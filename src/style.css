@@ -38,3 +38,19 @@ body{
 .meaning-container{
     display: none;
 }
+
+@media (max-width: 600px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        width: 90%;
+        max-width: none;
+        padding: 0 20px;
+    }
+
+    .container {
+        font-size: 1rem;
+    }
+}
